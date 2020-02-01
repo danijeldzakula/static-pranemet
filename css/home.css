@@ -1,0 +1,1221 @@
+main.home section.two {
+    margin-top: -120px
+}
+
+.banner-wrapper .countdown-green .countdown-wrapper .countdown-section .countdown-amount {
+    font-family: AvertaStd, Arial, Helvetica, sans-serif;
+    color: #00b64c;
+    text-shadow: 0 0 10px rgba(0, 199, 83, .5), 0 0 20px rgba(0, 199, 83, .5)
+}
+
+.banner-wrapper .countdown-green .countdown-wrapper .countdown-section .countdown-period {
+    font-family: AvertaStd, Arial, Helvetica, sans-serif;
+    color: #00b64c;
+    text-transform: uppercase
+}
+
+.banner-wrapper .image-cont {
+    vertical-align: top;
+    margin-top: 80px
+}
+
+.banner-wrapper .banner-text-block {
+    margin: 150px 80px 80px 0
+}
+
+.banner-wrapper .banner-text-block h1,
+.banner-wrapper .banner-text-block h2 {
+    font-size: 52px;
+    font-family: AvertaStd, Arial, Helvetica, sans-serif;
+    line-height: 107%
+}
+
+.banner-wrapper .banner-text-block h1 b,
+.banner-wrapper .banner-text-block h1 span,
+.banner-wrapper .banner-text-block h2 b,
+.banner-wrapper .banner-text-block h2 span {
+    color: #00c277;
+    font-family: AvertaStd, Arial, Helvetica, sans-serif
+}
+
+.banner-wrapper .banner-text-block .subtitle {
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 32px;
+    margin-bottom: 0
+}
+
+.banner-wrapper .banner-text-block .subtitle b {
+    white-space: nowrap
+}
+
+.banner-wrapper .banner-text-block a {
+    margin-top: 40px;
+    font-size: 16px
+}
+
+.banner-wrapper .nav-wrapper {
+    z-index: 10;
+    position: absolute;
+    top: 250px;
+    width: 100%
+}
+
+.banner-wrapper .nav-wrapper .nav-arrows {
+    text-align: right;
+    max-width: 100%
+}
+
+.banner-wrapper .nav-wrapper .nav-arrows span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    cursor: pointer;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 2px 3.8px .2px rgba(0, 0, 0, .2);
+    margin-left: 10px;
+    opacity: .8
+}
+
+.banner-wrapper .nav-wrapper .nav-arrows span:hover {
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .06), 0 4px 9px 0 rgba(0, 0, 0, .07);
+    opacity: 1
+}
+
+.banner-wrapper .nav-wrapper .nav-arrows .nav-arrow-prev {
+    background-image: url(./img/ic_arrow_left_grey.svg);
+    float: left
+}
+
+.banner-wrapper .nav-wrapper .nav-arrows .nav-arrow-next {
+    background-image: url(./img/ic_arrow_right_grey.svg);
+    float: right
+}
+
+.banner-wrapper .sl-slide-bg-0 .sl-content {
+    background: #fff
+}
+
+.banner-wrapper .sl-slide-bg-1 .sl-content {
+    background: #f5f9fc
+}
+
+.banner-wrapper .sl-slide-bg-2 .sl-content {
+    background: #7e57c2
+}
+
+.banner-wrapper .sl-slide-bg-2 .sl-content .banner-text-block h1,
+.banner-wrapper .sl-slide-bg-2 .sl-content .banner-text-block h2 {
+    color: #fff
+}
+
+.banner-wrapper .sl-slide-bg-2 .sl-content .banner-text-block .subtitle {
+    color: #fff
+}
+
+.banner-wrapper .sl-slide-bg-3 .sl-content {
+    background: #fbac1c
+}
+
+.banner-wrapper .sl-slide-bg-3 .sl-content .banner-text-block h1,
+.banner-wrapper .sl-slide-bg-3 .sl-content .banner-text-block h2 {
+    color: #fff
+}
+
+.banner-wrapper .sl-slide-bg-3 .sl-content .banner-text-block .subtitle {
+    color: #fff
+}
+
+.banner-wrapper .sl-slide-bg-3 .sl-content .button {
+    background-color: #a15ab8
+}
+
+.banner-wrapper .sl-slide-bg-3 .sl-content .button:hover {
+    background-color: #ff6833
+}
+
+.banner-wrapper .sl-slide-bg-4 .sl-content {
+    background: #0f0015
+}
+
+.banner-wrapper .sl-slide-bg-4 .sl-content .banner-text-block h1,
+.banner-wrapper .sl-slide-bg-4 .sl-content .banner-text-block h2 {
+    color: #fff
+}
+
+.banner-wrapper .sl-slide-bg-4 .sl-content .banner-text-block .subtitle {
+    color: #fff
+}
+
+.banner-wrapper .sl-slide-bg-5 .sl-content {
+    background: #e7eded
+}
+
+.sl-trans-elems .deco {
+    -webkit-animation: roll 1s ease-out both, fadeIn 1s ease-out both;
+    -moz-animation: roll 1s ease-out both, fadeIn 1s ease-out both;
+    -o-animation: roll 1s ease-out both, fadeIn 1s ease-out both;
+    -ms-animation: roll 1s ease-out both, fadeIn 1s ease-out both;
+    animation: roll 1s ease-out both, fadeIn 1s ease-out both
+}
+
+.sl-trans-elems h1,
+.sl-trans-elems h2 {
+    -webkit-animation: moveUp 1s ease-in-out both;
+    -moz-animation: moveUp 1s ease-in-out both;
+    -o-animation: moveUp 1s ease-in-out both;
+    -ms-animation: moveUp 1s ease-in-out both;
+    animation: moveUp 1s ease-in-out both
+}
+
+.sl-trans-elems a,
+.sl-trans-elems blockquote,
+.sl-trans-elems p {
+    -webkit-animation: fadeIn .5s linear .5s both;
+    -moz-animation: fadeIn .5s linear .5s both;
+    -o-animation: fadeIn .5s linear .5s both;
+    -ms-animation: fadeIn .5s linear .5s both;
+    animation: fadeIn .5s linear .5s both
+}
+
+.sl-trans-back-elems .deco {
+    -webkit-animation: scaleDown 1s ease-in-out both;
+    -moz-animation: scaleDown 1s ease-in-out both;
+    -o-animation: scaleDown 1s ease-in-out both;
+    -ms-animation: scaleDown 1s ease-in-out both;
+    animation: scaleDown 1s ease-in-out both
+}
+
+.sl-trans-back-elems h2 {
+    -webkit-animation: fadeOut 1s ease-in-out both;
+    -moz-animation: fadeOut 1s ease-in-out both;
+    -o-animation: fadeOut 1s ease-in-out both;
+    -ms-animation: fadeOut 1s ease-in-out both;
+    animation: fadeOut 1s ease-in-out both
+}
+
+.sl-trans-back-elems blockquote {
+    -webkit-animation: fadeOut 1s linear both;
+    -moz-animation: fadeOut 1s linear both;
+    -o-animation: fadeOut 1s linear both;
+    -ms-animation: fadeOut 1s linear both;
+    animation: fadeOut 1s linear both
+}
+
+@-webkit-keyframes roll {
+    0% {
+        -webkit-transform: translateX(500px) rotate(360deg)
+    }
+    100% {
+        -webkit-transform: translateX(0) rotate(0)
+    }
+}
+
+@-moz-keyframes roll {
+    0% {
+        -moz-transform: translateX(500px) rotate(360deg);
+        opacity: 0
+    }
+    100% {
+        -moz-transform: translateX(0) rotate(0);
+        opacity: 1
+    }
+}
+
+@-o-keyframes roll {
+    0% {
+        -o-transform: translateX(500px) rotate(360deg);
+        opacity: 0
+    }
+    100% {
+        -o-transform: translateX(0) rotate(0);
+        opacity: 1
+    }
+}
+
+@-ms-keyframes roll {
+    0% {
+        -ms-transform: translateX(500px) rotate(360deg);
+        opacity: 0
+    }
+    100% {
+        -ms-transform: translateX(0) rotate(0);
+        opacity: 1
+    }
+}
+
+@keyframes roll {
+    0% {
+        transform: translateX(500px) rotate(360deg);
+        opacity: 0
+    }
+    100% {
+        transform: translateX(0) rotate(0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes moveUp {
+    0% {
+        -webkit-transform: translateY(40px)
+    }
+    100% {
+        -webkit-transform: translateY(0)
+    }
+}
+
+@-moz-keyframes moveUp {
+    0% {
+        -moz-transform: translateY(40px)
+    }
+    100% {
+        -moz-transform: translateY(0)
+    }
+}
+
+@-o-keyframes moveUp {
+    0% {
+        -o-transform: translateY(40px)
+    }
+    100% {
+        -o-transform: translateY(0)
+    }
+}
+
+@-ms-keyframes moveUp {
+    0% {
+        -ms-transform: translateY(40px)
+    }
+    100% {
+        -ms-transform: translateY(0)
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(40px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes scaleDown {
+    0% {
+        -webkit-transform: scale(1)
+    }
+    100% {
+        -webkit-transform: scale(.5)
+    }
+}
+
+@-moz-keyframes scaleDown {
+    0% {
+        -moz-transform: scale(1)
+    }
+    100% {
+        -moz-transform: scale(.5)
+    }
+}
+
+@-o-keyframes scaleDown {
+    0% {
+        -o-transform: scale(1)
+    }
+    100% {
+        -o-transform: scale(.5)
+    }
+}
+
+@-ms-keyframes scaleDown {
+    0% {
+        -ms-transform: scale(1)
+    }
+    100% {
+        -ms-transform: scale(.5)
+    }
+}
+
+@keyframes scaleDown {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(.5)
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@-moz-keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@-o-keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@-ms-keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+.sl-slider-wrapper {
+    width: 100%;
+    height: 850px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 0
+}
+
+.sl-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.sl-slide,
+.sl-slide-inner,
+.sl-slides-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0
+}
+
+.sl-slide .text-container,
+.sl-slide-inner .text-container,
+.sl-slides-wrapper .text-container {
+    position: relative;
+    z-index: 12
+}
+
+.sl-slide {
+    z-index: 1
+}
+
+.sl-content-slice {
+    overflow: hidden;
+    position: absolute;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background: #fff;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    opacity: 1
+}
+
+.sl-slide-horizontal .sl-content-slice {
+    width: 100%;
+    height: 50%;
+    left: -200px;
+    -webkit-transform: translateY(0) scale(1);
+    -moz-transform: translateY(0) scale(1);
+    -o-transform: translateY(0) scale(1);
+    -ms-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1)
+}
+
+.sl-slide-horizontal .sl-content-slice:first-child {
+    top: -200px;
+    padding: 200px 200px 0 200px
+}
+
+.sl-slide-horizontal .sl-content-slice:nth-child(2) {
+    top: 50%;
+    padding: 0 200px 200px 200px
+}
+
+.sl-slide-vertical .sl-content-slice {
+    width: 50%;
+    height: 100%;
+    top: -200px;
+    -webkit-transform: translateX(0) scale(1);
+    -moz-transform: translateX(0) scale(1);
+    -o-transform: translateX(0) scale(1);
+    -ms-transform: translateX(0) scale(1);
+    transform: translateX(0) scale(1)
+}
+
+.sl-slide-vertical .sl-content-slice:first-child {
+    left: -200px;
+    padding: 200px 0 200px 200px
+}
+
+.sl-slide-vertical .sl-content-slice:nth-child(2) {
+    left: 50%;
+    padding: 200px 200px 200px 0
+}
+
+.sl-content-wrapper {
+    position: absolute;
+    width: 100%
+}
+
+.sl-content {
+    width: 100%;
+    height: 100%
+}
+
+.banner-wrapper .sl-slide-type-1 .image-cont {
+    vertical-align: auto
+}
+
+.banner-wrapper .sl-slide-type-1 .image-cont .image {
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    max-width: 100%
+}
+
+.banner-wrapper .sl-slide-type-1 .image-cont-mobile {
+    width: 100%;
+    text-align: center
+}
+
+.banner-wrapper .sl-slide-type-1 .image-cont-mobile .image {
+    max-width: 100%;
+    width: auto;
+    margin-right: 0
+}
+
+.banner-wrapper .sl-slide-type-1 .link-cont-mobile {
+    width: 100%
+}
+
+@media screen and (max-width:1600px) {
+    .banner-wrapper .image-cont {
+        margin-top: 48px
+    }
+    .banner-wrapper .image {
+        width: 960px
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .banner-wrapper .banner-text-block {
+        margin-top: 80px
+    }
+    .banner-wrapper .image-cont {
+        margin-top: 40px
+    }
+    .banner-wrapper .image {
+        width: 776px
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .banner-wrapper .banner-text-block {
+        margin: 80px
+    }
+    .banner-wrapper .banner-text-block h1,
+    .banner-wrapper .banner-text-block h2 {
+        font-size: 40px
+    }
+    .banner-wrapper .image-cont {
+        margin-top: 56px
+    }
+    .banner-wrapper .image {
+        width: 708px
+    }
+}
+
+@media screen and (max-width:992px) {
+    .banner-wrapper .banner-text-block {
+        margin: 60px 10% 0;
+        text-align: center
+    }
+    .banner-wrapper .banner-text-block h1,
+    .banner-wrapper .banner-text-block h2 {
+        font-size: 40px;
+        line-height: 44px
+    }
+    .banner-wrapper .banner-text-block .subtitle {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 24px
+    }
+    .banner-wrapper .sl-slide-type-0 .image {
+        width: 810px;
+        margin-right: -20%
+    }
+    .banner-wrapper .sl-slide-type-0 .image-cont-mob {
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center
+    }
+    .banner-wrapper .sl-slide-type-1 .image-cont-mobile .image {
+        max-width: 600px
+    }
+    .banner-wrapper .nav-wrapper .nav-arrows span {
+        width: 32px;
+        height: 32px
+    }
+    .banner-wrapper .nav-wrapper .nav-arrows .nav-arrow-prev {
+        margin-left: -5px
+    }
+    .banner-wrapper .nav-wrapper .nav-arrows .nav-arrow-next {
+        margin-right: -5px
+    }
+    main.home section.two {
+        margin-top: -20px
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner-wrapper .banner-text-block {
+        margin: 40px 10% 0
+    }
+    .banner-wrapper .banner-text-block h1,
+    .banner-wrapper .banner-text-block h2 {
+        font-size: 23px;
+        line-height: 30px
+    }
+    .banner-wrapper .banner-text-block a {
+        font-size: 14px;
+        margin-top: 20px;
+        height: 40px;
+        line-height: 40px
+    }
+    .banner-wrapper .sl-slide-type-0 .image-cont {
+        margin-top: 0
+    }
+    .banner-wrapper .sl-slide-type-0 .image {
+        width: 810px
+    }
+    .banner-wrapper .text-container {
+        min-height: 168px
+    }
+    .banner-wrapper .sl-slide-type-1 .image-cont-mobile {
+        width: 500px;
+        margin: auto;
+        margin-top: 20px
+    }
+    .banner-wrapper .sl-slide-type-1 .image-cont-mobile .image {
+        max-width: 100%
+    }
+    main.home section.two {
+        margin-top: -80px;
+        padding-top: 0
+    }
+}
+
+@media screen and (max-width:426px) {
+    .banner-wrapper .sl-slide-type-0 .image-cont {
+        margin-top: 10px
+    }
+    .banner-wrapper .sl-slide-type-0 .image {
+        width: 396px
+    }
+    .banner-wrapper .text-container {
+        min-height: 215px
+    }
+    .banner-wrapper .sl-slide-type-1 .image-cont-mobile .image {
+        max-width: 90%
+    }
+    main.home section.two {
+        margin-top: -230px
+    }
+}
+
+@media screen and (max-width:360px) {
+    main.home section.two {
+        margin-top: -320px
+    }
+}
+
+picture {
+    display: block
+}
+
+picture img {
+    width: 100%
+}
+
+main.home h1 {
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center
+}
+
+main.home h2 {
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center
+}
+
+main.home .button {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 40px;
+    line-height: 40px
+}
+
+main.home .button.button-m {
+    height: 32px;
+    line-height: 32px
+}
+
+main.home a.link {
+    text-transform: uppercase;
+    color: #a15ab8;
+    line-height: 40px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-decoration: underline;
+    font-weight: 700;
+    display: inline-block
+}
+
+main.home a.link.button-m {
+    line-height: 32px
+}
+
+main.home a.link:hover {
+    text-decoration: none
+}
+
+main.home section.wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+main.home section.wrapper.grey {
+    background-color: #fafafa
+}
+
+main.home section.wrapper-banner .main-banner {
+    position: relative;
+    margin-top: -40px;
+    height: 420px
+}
+
+main.home section.wrapper-banner .main-banner picture {
+    height: 100%;
+    width: 100%
+}
+
+main.home section.wrapper-banner .main-banner picture img {
+    object-fit: cover;
+    height: 100%
+}
+
+main.home section.wrapper-banner .main-banner .click-block {
+    display: block;
+    position: absolute;
+    top: 10%;
+    bottom: 1%;
+    left: 1%;
+    right: 1%
+}
+
+main.home section.wrapper-banner h1 {
+    max-width: 240px
+}
+
+main.home section.wrapper-banner .default-banner {
+    position: relative
+}
+
+main.home section.wrapper-banner .default-banner picture {
+    margin-top: 40px;
+    margin-right: -20%
+}
+
+main.home section.wrapper-banner .default-banner picture img {
+    mix-blend-mode: multiply
+}
+
+main.home section.wrapper-banner .default-banner .madeinlatvia {
+    position: absolute;
+    top: auto;
+    bottom: -50px;
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    left: 50%
+}
+
+main.home section.wrapper-banner .button-wrapper {
+    margin-top: 20px
+}
+
+main.home section.wrapper-what picture {
+    margin-top: 30px;
+    margin-right: -80px
+}
+
+main.home section.wrapper-how.wrapper.grey {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+main.home section.wrapper-advantages {
+    padding-bottom: 0
+}
+
+main.home section.wrapper-advantages .advantages-item {
+    margin-top: 24px
+}
+
+main.home section.wrapper-advantages .advantages-item img {
+    width: 56px;
+    height: 56px;
+    float: left
+}
+
+main.home section.wrapper-advantages .advantages-item .description {
+    margin-left: 76px
+}
+
+main.home section.wrapper-advantages .advantages-item .description .title {
+    font-size: 24px;
+    line-height: 28px
+}
+
+main.home section.wrapper-advantages .advantages-item .description .text {
+    margin-top: 8px
+}
+
+main.home section.wrapper-advantages .carousel-video {
+    margin-top: 16px
+}
+
+main.home section.wrapper-advantages .carousel-video .slick-list {
+    overflow: inherit
+}
+
+main.home section.wrapper-advantages .carousel-video .slick-list .slick-slide {
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+main.home section.wrapper-advantages .carousel-video .image-video .video img {
+    border-radius: 16px
+}
+
+main.home section.wrapper-advantages .carousel-video .description {
+    margin: -10px 16px 0
+}
+
+main.home section.wrapper-advantages .carousel-video.carousel.slick-dotted {
+    padding-bottom: 70px
+}
+
+main.home section.wrapper-advantages .carousel-video .slick-arrow {
+    top: 32%
+}
+
+main.home section.wrapper-reviews .carousel .item h4 {
+    line-height: 20px
+}
+
+main.home section.wrapper-reviews .carousel .item .description .title {
+    height: auto;
+    min-height: 50px
+}
+
+main.home section.wrapper-reviews .carousel .item .description .text {
+    min-height: 50px
+}
+
+main.home section.wrapper-products {
+    padding-top: 0
+}
+
+main.home section.wrapper-products .carousel-products {
+    margin-top: 20px;
+    padding-bottom: 0
+}
+
+main.home section.wrapper-products .carousel-products .products .item .content {
+    position: relative;
+    max-width: 400px;
+    margin: auto
+}
+
+main.home section.wrapper-products .carousel-products .products .item .content .color-title {
+    margin-top: -20px;
+    text-align: left;
+    opacity: .3;
+    margin-bottom: -40px
+}
+
+main.home section.wrapper-products .carousel-products .products .item .content .color-title span {
+    display: block;
+    font-family: AvertaStd, Arial, Helvetica, sans-serif;
+    font-weight: 700
+}
+
+main.home section.wrapper-products .carousel-products .products .item .content .color-title .c1 {
+    font-size: 40px;
+    margin-left: 50px
+}
+
+main.home section.wrapper-products .carousel-products .products .item .content .color-title .c2 {
+    margin-top: -40px;
+    font-size: 70px
+}
+
+main.home section.wrapper-products .carousel-products .products .item .content .image img {
+    width: 70%
+}
+
+main.home section.wrapper-products .carousel-products .products .item .content .price-wrapper {
+    position: absolute;
+    right: -5px;
+    top: 0;
+    width: 200px
+}
+
+main.home section.wrapper-products .carousel-products .products .item .content .price-wrapper span {
+    display: block;
+    text-align: right;
+    font-family: AvertaStd, Arial, Helvetica, sans-serif
+}
+
+main.home section.wrapper-products .carousel-products .products .item .content .price-wrapper .old-price {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: line-through
+}
+
+main.home section.wrapper-products .carousel-products .products .item .content .price-wrapper .price {
+    margin-top: -10px;
+    font-size: 32px;
+    font-weight: 700
+}
+
+main.home section.wrapper-products .carousel-products .footer .colors {
+    text-align: center
+}
+
+main.home section.wrapper-products .carousel-products .footer .colors li {
+    display: inline-block;
+    float: none
+}
+
+main.home section.wrapper-about .left-block .carousel.carousel-press {
+    margin: 20px 0 20px
+}
+
+main.home section.wrapper-about .left-block .carousel.carousel-press .slick-slide {
+    margin-left: 0;
+    margin-right: 0
+}
+
+main.home section.wrapper-about .left-block .carousel.carousel-press .slick-arrow {
+    top: 16px;
+    z-index: 2
+}
+
+main.home section.wrapper-about .left-block .carousel.carousel-press .slick-prev {
+    right: 80px;
+    left: auto
+}
+
+main.home section.wrapper-about .left-block .carousel.carousel-press .slick-next {
+    right: 60px
+}
+
+main.home section.wrapper-about .left-block .item {
+    text-align: left
+}
+
+main.home section.wrapper-about .left-block .item .header .logo {
+    height: 50px;
+    margin-right: 100px
+}
+
+main.home section.wrapper-about .left-block .item .header .logo img {
+    height: 100%
+}
+
+main.home section.wrapper-about .left-block .item .header .title {
+    margin-top: 8px;
+    color: #a8a8a8
+}
+
+main.home section.wrapper-about .left-block .item .content {
+    margin-top: 32px;
+    font-style: italic
+}
+
+main.home section.wrapper-about .right-block {
+    margin-top: 60px
+}
+
+main.home section.wrapper-about .right-block .title {
+    margin-bottom: 16px;
+    max-width: 360px;
+    font-size: 45px;
+    line-height: 45px
+}
+
+main.home section.wrapper-about .right-block .image {
+    height: auto;
+    margin-top: 0;
+    position: relative;
+    z-index: -1;
+    text-align: right
+}
+
+main.home section.wrapper-about .right-block .image img {
+    height: auto;
+    width: 100%
+}
+
+main.home .wrapper-image picture {
+    display: block
+}
+
+main.home .wrapper-image picture img {
+    max-width: 100%
+}
+
+@media screen and (min-width:340px) {
+    main.home section.wrapper-banner .main-banner {
+        height: 480px
+    }
+}
+
+@media screen and (min-width:426px) {
+    main.home section.wrapper-banner .main-banner {
+        height: auto
+    }
+}
+
+@media screen and (min-width:768px) {
+    main.home section.wrapper-banner .default-banner .madeinlatvia {
+        top: -250px;
+        width: 90px;
+        height: 90px;
+        right: 0;
+        left: auto
+    }
+    main.home .button-wrapper a {
+        margin-right: 32px
+    }
+    main.home h1,
+    main.home h2 {
+        font-size: 45px;
+        line-height: 45px;
+        text-align: left
+    }
+    main.home .button {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        height: 48px;
+        line-height: 48px
+    }
+    main.home .button.button-m {
+        height: 40px;
+        line-height: 40px
+    }
+    main.home a.link {
+        height: 48px;
+        line-height: 48px
+    }
+    main.home a.link.button-m {
+        line-height: 40px
+    }
+    main.home section.wrapper-banner h1 {
+        max-width: 400px
+    }
+    main.home section.wrapper-how.wrapper.grey {
+        padding-top: 80px;
+        padding-bottom: 80px
+    }
+    main.home section.wrapper-products .carousel-products {
+        padding-bottom: 20px
+    }
+    main.home section.wrapper-about .left-block .carousel.carousel-press {
+        margin: 20px 0 40px
+    }
+    main.home section.wrapper-about .right-block .image {
+        height: 380px;
+        margin-top: -20px
+    }
+    main.home section.wrapper-about .right-block .image img {
+        width: auto;
+        height: 100%
+    }
+}
+
+@media screen and (min-width:992px) {
+    main.home section.wrapper-banner .default-banner picture {
+        margin-top: 100px
+    }
+    main.home section.wrapper-banner .default-banner picture img {
+        width: auto;
+        height: 300px
+    }
+    main.home section.wrapper-banner .default-banner .madeinlatvia {
+        top: -120px;
+        width: 90px;
+        height: 90px;
+        right: auto;
+        left: -98%
+    }
+    main.home section.wrapper-banner .button-wrapper {
+        margin-top: 40px
+    }
+    main.home section.wrapper-banner .main-banner {
+        height: 640px
+    }
+    main.home section.wrapper-banner .main-banner .click-block {
+        top: 10%;
+        bottom: 10%;
+        left: 20%;
+        right: 20%
+    }
+    main.home section.wrapper-what picture {
+        max-width: 70%;
+        margin: auto
+    }
+    main.home section.wrapper-advantages .carousel-video .slick-arrow {
+        top: 40%
+    }
+    main.home section.wrapper-advantages .carousel-video .description {
+        font-size: 16px
+    }
+    main.home section.wrapper-advantages .carousel-video .slick-list {
+        overflow: hidden
+    }
+    main.home section.wrapper-advantages .carousel-video .slick-list .slick-slide {
+        margin-left: 15px;
+        margin-right: 15px
+    }
+    main.home section.wrapper-products .carousel-products .products .item .content {
+        position: relative;
+        max-width: 400px;
+        margin: auto
+    }
+    main.home section.wrapper-products .carousel-products .products .item .content .image img {
+        width: 100%
+    }
+    main.home section.wrapper-products .carousel-products .products .item .content .price-wrapper {
+        right: -240px;
+        top: 30%;
+        width: 200px
+    }
+    main.home section.wrapper-products .carousel-products .products .item .content .price-wrapper .old-price {
+        font-size: 24px;
+        font-weight: 700
+    }
+    main.home section.wrapper-products .carousel-products .products .item .content .price-wrapper .price {
+        margin-top: -20px;
+        font-size: 56px;
+        font-weight: 700
+    }
+}
+
+@media screen and (min-width:1200px) {
+    main.home section.wrapper {
+        padding-top: 60px;
+        padding-bottom: 60px
+    }
+    main.home section.wrapper.wrapper-advantages {
+        padding-bottom: 0
+    }
+    main.home section.wrapper-banner .main-banner {
+        margin-top: -60px
+    }
+    main.home section.wrapper-banner .default-banner picture img {
+        height: auto
+    }
+    main.home section.wrapper-banner .default-banner .madeinlatvia {
+        top: -100px
+    }
+    main.home section.wrapper-about .right-block {
+        margin-top: 0
+    }
+}
