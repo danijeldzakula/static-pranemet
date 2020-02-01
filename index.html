@@ -68,28 +68,20 @@
             <nav class="menu d-none d-lg-block">
                 <ul>
                     <li>
-                        <a href="#link-to" class="item">Почему Pranamat ECO</a>
-
+                        <a href="#what" class="item">Почему Pranamat ECO</a>
                     </li>
                     <li>
-                        <a href="#link-to" class="item">Как помогает</a>
-
+                        <a href="#how" class="item">Как помогает</a>
                     </li>
                     <li>
                         <a href="#link-to" class="item">Как использовать</a>
-
                     </li>
                     <li>
-                        <a href="#link-to" class="item">Отзывы</a>
-
+                        <a href="#reviews" class="item">Отзывы</a>
                     </li>
-                    <li>
-                        <a href="#link-to" class="item">Сертификаты и награды</a>
-
-                    </li>
-
                 </ul>
             </nav>
+
         </section>
         <section class="mobile-nav">
             <nav>
@@ -100,17 +92,23 @@
                     </button>
                 </div>
                 <ul class="navlinks">
-                    <li><a rel="nofollow" class="" href="#link-to">Почему Pranamat ECO</a></li>
-                    <li><a rel="nofollow" class="" href="#link-to">Как помогает</a></li>
-                    <li><a rel="nofollow" class="" href="#link-to">Как использовать</a></li>
-                    <li><a rel="nofollow" class="" href="#link-to">Отзывы</a></li>
-                    <li><a rel="nofollow" class="" href="#link-to">Сертификаты и награды</a></li>
-
+                    <li class="menu-close">
+                        <a rel="nofollow" class="" href="#what">Почему Pranamat ECO</a>
+                    </li>
+                    <li class="menu-close">
+                        <a rel="nofollow" class="" href="#how">Как помогает</a>
+                    </li>
+                    <li class="menu-close">
+                        <a rel="nofollow" class="" href="#link-to">Как использовать</a>
+                    </li>
+                    <li class="menu-close">
+                        <a rel="nofollow" class="" href="#reviews">Отзывы</a>
+                    </li>
                 </ul>
 
                 <div class="social text-center">
                     <p>Подписывайтесь на нас</p>
-                    <div>
+                    <div class="mobile-social">
                         <a rel="nofollow" href="#link-to" target="_blank">
                             <svg>
                                 <use xlink:href="#facebook-logo-hover"></use>
@@ -160,7 +158,7 @@
             </div>
         </section>
 
-        <section class="wrapper-what wrapper">
+        <section class="wrapper-what wrapper" id="what">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 col-lg-6 text-center">
@@ -176,7 +174,7 @@
                 </picture>
             </div>
         </section>
-        <section class="wrapper-how wrapper grey">
+        <section class="wrapper-how wrapper grey" id="how">
             <div class="container">
                 <div class="row justify-content-center justify-content-xl-start">
                     <div class="col-12 col-md-8 col-xl-6 order-1 order-lg-1">
@@ -395,12 +393,6 @@
                                         <li data-index="5" style="border-color:#e1dbce;background-color:#ffa000"></li>
                                     </ul>
                                 </div>
-                                <div class="col-12 col-md-6 text-center text-md-right">
-                                    <a rel="nofollow" href="" id="add-product" class="button orange">В корзину</a>
-                                </div>
-                                <div class="col-12 col-md-6 text-center text-md-left">
-                                    <a rel="nofollow" href="#link-to" class="link">Все продукты </a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -408,7 +400,50 @@
             </div>
         </section>
 
-        <section class="wrapper-reviews wrapper grey">
+        <section class="wrapper-order wrapper" id="order">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <form class="gl__form">
+                            <header class="price">
+                                <span class="sale__price">
+                                    <strong class="text-uppercase">3680 RSD</strong>
+                                </span>
+                                <span class="old__price">
+                                    <span>
+                                        <strong>Stara cena:</strong>
+                                    </span>
+                                <span>
+                                        <strong class="text-uppercase">7360 RSD</strong>
+                                    </span>
+                                </span>
+                            </header>
+                            <main class="form-inputs">
+                                <div class="form-group">
+                                    <label for="country">Odaberi Državu</label>
+                                    <select class="form-control" id="country">
+                                        <option>Srbija</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">Ime i Prezime</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Ime i Prezime">
+                                </div>
+                                <div class="form-group">
+                                    <label for="number">Broj Telefona</label>
+                                    <input class="form-control" id="number" class="number" name="number" type="text" placeholder="Broj telefona">
+                                </div>
+                                <button type="submit" class="btn btn-warning btn-block text-uppercase p-2">
+                                    <strong>Poručiti</strong>
+                                </button>
+                            </main>
+                        </form>
+                    </div>                
+                </div>
+            </div>            
+        </section>
+
+        <section class="wrapper-reviews wrapper grey" id="reviews">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -609,17 +644,25 @@
             <div class="bg"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-12">
                         <div class="contact">
                             <h2>Соцсети</h2>
-                            <div class="txt text-center text-md-left">
-                                Подписывайтесь на нас в соцсетях — там мы делимся вдохновляющими историями и полезными советами. И анонсируем новости и специальные предложения! </div>
+                            <div class="txt text-center text-md-left">Подписывайтесь на нас в соцсетях — там мы делимся вдохновляющими историями и полезными советами. И анонсируем новости и специальные предложения!</div>
                             <ul class="social">
                                 <li>
+
+                                         
+                                   
+
                                     <a rel="nofollow" target="_blank" href="#link-to">
                                         <div class="default">
                                             <svg>
-                                                <use xlink:href="#facebook-logo"></use>
+                                                <use xlink:href="#facebook-logo">
+                                                    <svg id="facebook-logo" viewBox="0 0 46 46">
+                                                        <circle id="Combined-Shape-1" stroke="#FFFFFF" stroke-width="1" fill="none" cx="22.9607843" cy="22.9607843" r="21.9607843"></circle>
+                                                        <path d="M26.1064059,12.8138845 L23.9116586,12.8104575 C21.4459353,12.8104575 19.8524765,14.4014338 19.8524765,16.8638915 L19.8524765,18.732796 L17.6457563,18.732796 C17.4550694,18.732796 17.3006536,18.8832405 17.3006536,19.0688115 L17.3006536,21.7766412 C17.3006536,21.9622122 17.4552455,22.1124854 17.6457563,22.1124854 L19.8524765,22.1124854 L19.8524765,28.9452015 C19.8524765,29.1307726 20.0068924,29.2810458 20.1975792,29.2810458 L23.0767215,29.2810458 C23.2674083,29.2810458 23.4218241,29.1306013 23.4218241,28.9452015 L23.4218241,22.1124854 L26.0019948,22.1124854 C26.1926816,22.1124854 26.3470974,21.9622122 26.3470974,21.7766412 L26.3481539,19.0688115 C26.3481539,18.97971 26.3117068,18.8943782 26.2470881,18.8313217 C26.1826455,18.7682653 26.0946091,18.732796 26.0028751,18.732796 L23.4218241,18.732796 L23.4218241,17.1485023 C23.4218241,16.387027 23.6082852,16.0004635 24.6277467,16.0004635 L26.1060538,15.9999494 C26.2965646,15.9999494 26.4509804,15.8495049 26.4509804,15.6641052 L26.4509804,13.1497287 C26.4509804,12.9645003 26.2967406,12.8142272 26.1064059,12.8138845" id="Fill-01" fill="#FFFFFF"></path>
+                                                    </svg>                                                    
+                                                </use>
                                             </svg>
                                         </div>
                                         <div class="hover">
@@ -637,7 +680,16 @@
                                     <a rel="nofollow" target="_blank" href="#link-to">
                                         <div class="default">
                                             <svg>
-                                                <use xlink:href="#instagram-logo"></use>
+                                                <use xlink:href="#instagram-logo">
+                                                    <svg id="instagram-logo" viewBox="0 0 46 46">
+                                                        <circle id="Combined-Shape-3" stroke="#FFFFFF" stroke-width="1" fill="none" cx="22.9607843" cy="22.9607843" r="21.9607843"></circle>
+                                                        <g id="instagram" transform="translate(13.954248, 13.000000)" fill="#FFFFFF">
+                                                            <path d="M15.5670903,12.6699786 C15.5670903,14.3611205 14.1912149,15.7368022 12.500073,15.7368022 L5.16058516,15.7368022 C3.46963706,15.7369959 2.09385852,14.3611205 2.09385852,12.6699786 L2.09385852,5.33068451 C2.09385852,3.63963952 3.46963706,2.26376409 5.16058516,2.26376409 L12.4999762,2.26376409 C14.191118,2.26376409 15.5668966,3.63963952 15.5668966,5.33068451 L15.5668966,12.6699786 L15.5670903,12.6699786 Z M12.4999762,0.810476894 L5.16058516,0.810476894 C2.6682945,0.810476894 0.640571319,2.83829696 0.640571319,5.33068451 L0.640571319,12.6699786 C0.640571319,15.1624631 2.6682945,17.1900894 5.16058516,17.1900894 L12.4999762,17.1900894 C14.9924606,17.1900894 17.0201838,15.1623662 17.0201838,12.6699786 L17.0201838,5.33068451 C17.0203775,2.83829696 14.9924606,0.810476894 12.4999762,0.810476894 L12.4999762,0.810476894 Z" id="Fill-2"></path>
+                                                            <path d="M8.83035817,11.7675454 C7.3045035,11.7675454 6.06300869,10.5262444 6.06300869,9.0003897 C6.06300869,7.47443814 7.30440661,6.23304022 8.83035817,6.23304022 C10.3563097,6.23304022 11.5977077,7.47443814 11.5977077,9.0003897 C11.5977077,10.5262444 10.3563097,11.7675454 8.83035817,11.7675454 M8.83035817,4.7798499 C6.50306405,4.7798499 4.60972149,6.67319246 4.60972149,9.00048658 C4.60972149,11.3276838 6.50306405,13.2209295 8.83035817,13.2209295 C11.1576523,13.2209295 13.0509948,11.3276838 13.0509948,9.00048658 C13.0509948,6.67319246 11.1576523,4.7798499 8.83035817,4.7798499" id="Fill-3"></path>
+                                                            <path d="M13.2280149,3.54757862 C12.9480149,3.54757862 12.6729561,3.66093502 12.4752121,3.85955094 C12.2764993,4.057198 12.162271,4.33235371 12.162271,4.61332257 C12.162271,4.89341945 12.2765962,5.16847828 12.4752121,5.36709419 C12.6729561,5.56474125 12.9480149,5.67906651 13.2280149,5.67906651 C13.5089838,5.67906651 13.7831706,5.56474125 13.9817865,5.36709419 C14.1804025,5.16847828 14.2937589,4.89332257 14.2937589,4.61332257 C14.2937589,4.33235371 14.1804025,4.057198 13.9817865,3.85955094 C13.7841395,3.66093502 13.5089838,3.54757862 13.2280149,3.54757862" id="Fill-5"></path>
+                                                        </g>
+                                                    </svg>                                                    
+                                                </use>
                                             </svg>
                                         </div>
                                         <div class="hover">
@@ -655,7 +707,12 @@
                                     <a rel="nofollow" target="_blank" href="#link-to">
                                         <div class="default">
                                             <svg>
-                                                <use xlink:href="#youtube-logo"></use>
+                                                <use xlink:href="#youtube-logo">
+                                                    <svg id="youtube-logo" viewBox="0 0 46 46">
+                                                        <circle id="Combined-Shape-4" stroke="#FFFFFF" stroke-width="1" fill="none" cx="22.9607843" cy="22.9607843" r="21.9607843"></circle>
+                                                        <path d="M32.9986233,16.9266641 C33.4575538,18.5576656 33.4575538,21.9607607 33.4575538,21.9607607 C33.4575538,21.9607607 33.4575538,25.3637377 32.9986233,26.9949753 C32.7460743,27.8947771 32.0020279,28.6034257 31.0569655,28.8440498 C29.3445235,29.2810221 22.4771616,29.2810221 22.4771616,29.2810221 C22.4771616,29.2810221 15.6097998,29.2810221 13.8972329,28.8440498 C12.9522953,28.6034257 12.2081242,27.8947771 11.9555752,26.9949753 C11.4967695,25.3637377 11.4967695,21.9607607 11.4967695,21.9607607 C11.4967695,21.9607607 11.4967695,18.5576656 11.9555752,16.9266641 C12.2081242,16.0267443 12.9522953,15.3180957 13.8972329,15.0775897 C15.6097998,14.6404993 22.4771616,14.6404993 22.4771616,14.6404993 C22.4771616,14.6404993 29.3445235,14.6404993 31.0569655,15.0775897 C32.0020279,15.3180957 32.7460743,16.0267443 32.9986233,16.9266641 Z M20.2311349,25.0505132 L25.9708853,21.9608906 L20.2311349,18.8710318 L20.2311349,25.0505132 Z" id="Combined-Shape-8" fill="#FFFFFF"></path>
+                                                    </svg>                                                    
+                                                </use>
                                             </svg>
                                         </div>
                                         <div class="hover">
@@ -668,87 +725,43 @@
                                             </svg>
                                         </div>
                                     </a>
+                                  
                                 </li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="subscribe">
-                            <h2>Подпишитесь на рассылку</h2>
-                            <div class="txt text-center text-md-left">Оставьте свою электронную почту, чтобы быть в курсе всех новостей и спецпредложений Pranamat ECO!</div>
-                            <form class="form" action="">
-                                <div class="form-row">
-                                    <div class="form-group inputblock col-12 col-md-6">
-                                        <input name="email" type="text" placeholder="Ваш электронный адрес">
-                                    </div>
-                                    <div class="form-group inputblock col-12 col-md-6">
-                                        <a rel="nofollow" instruct="subscribe" class="button clbtn" client-form="1" href="#link-to">Отправить</a>
-                                    </div>
-                                </div>
-                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </article>
-        <div class="content">
-            <div class="container">
-                <div class="logo">
-                    <a rel="nofollow" href="#link-to"><img src="./img/pranamat-logo-footer.svg" alt="image"></a>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-3 contacts">
-                        <ul>
-                            <li class="phone">
-                                <img src="./img/phone.svg" alt="image">
-                                <a href="#link-to-number">+7(495)668-10-54</a>
-                            </li>
-                            <li class="mail">
-                                <img src="./img/email.svg" alt="image">
-                                <a href="#link-to">info@pranamateco.ru</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-6 navlinks">
-                        <nav>
-                            <ul>
-                                <li><a href="#link-to">Часто задаваемые вопросы</a></li>
-                                <li><a href="#link-to">Условия доставки и возврата</a></li>
-                                <li><a href="#link-to">Пользовательское соглашение</a></li>
-                                <li><a href="#link-to">Политика конфиденциальности</a></li>
-                                <li><a href="#link-to">О компании</a></li>
-                                <li><a href="#link-to">Противопоказания</a></li>
-                                <li><a href="#link-to">Контакты</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-12 col-md-3 payment">
-                        <ul class="row">
-                            <li class="col">
-                                <img src="./img/authorize-net.svg" class="lazy" data-src="./img/authorize-net.svg" alt="image" />
-                            </li>
-                            <li class="col">
-                                <img src="./img/paypal.svg" class="lazy" data-src="./img/paypal.svg" alt="image" />
-                            </li>
-                            <li class="col">
-                                <img src="./img/visa.svg" class="lazy" data-src="./img/visa.svg" alt="image" />
-                            </li>
-                            <li class="col">
-                                <img src="./img/mastercard.svg" class="lazy" data-src="./img/mastercard.svg" alt="image" />
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            <div class="container">
-                <span>Pranamateco.ru</span>
-                <span>©</span>
-                <span>Авторские права — «Prokapital Management Ltd.»</span>
-            </div>
-        </div>
 
+
+
+        <div class="gl__footer">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="copyright text-center mb-3"><strong>Copyright <script>document.write(new Date().getFullYear())</script> ©Pranemet ECO. All Rights Resrved</strong></p>
+                    </div>
+                </div>
+
+                <div class="row">   
+                    <div class="col-md-12">                 
+                        <p class="text-uppercase text-center">
+                            <a href="#link-to" class="list-inline-item">Uslovi koriscenja</a>
+                            <span class="list-inline-item separator"> | </span>
+                            <a href="#link-to" class="list-inline-item">Politika privatnosti</a>
+                        </p>
+                    </div>
+                </div>    
+
+                <div class="row"> 
+                    <div class="col-md-12 mt-3">
+                       <p class="text-center fz-small">Klikom na dugme «PORUČITI» potvrdjujete da ste pročitali Politika Privatnosti i dali pristanak na obradu vaših ličnih podataka.</p>
+                    </div>
+                </div>
+            </div>           
+        </div>
     </footer>
 
     <script src="./js/main.js"></script>

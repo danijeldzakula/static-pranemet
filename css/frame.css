@@ -11249,7 +11249,7 @@ header section.mobile-nav .currency-block .currency:after {
 }
 
 footer {
-    background: #fff
+    background: #f5f7f8
 }
 
 footer li,
@@ -13161,7 +13161,8 @@ footer .subscription .txt p {
 footer .subscription .contact {
     color: #fff;
     max-width: 380px;
-    padding: 50px 0 50px
+    padding: 50px 0 50px;
+    margin: auto;
 }
 
 footer .subscription .contact .social {
@@ -21955,4 +21956,78 @@ main.revw.wrapper section#reviews div.buttons {
 
 .select2-container--classic.select2-container--open .select2-dropdown {
     border-color: #5897fb
+}
+
+.separator {
+    position: relative;
+    width: 1px;
+    height: 100%;
+    background-color: black;
+    color: transparent;
+}
+
+.gl__footer .list-inline-item {
+    line-height: 1.613;
+}
+
+.gl__footer a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.gl__form {
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 3px;
+    overflow: hidden;
+    max-width: 440px;
+    margin: auto;
+}
+
+.gl__form .btn {
+    background-color: #00c277;
+    border-color: #00c277;
+    border-radius: 25px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.wrapper-order .price .sale__price,
+.wrapper-order .price .old__price {
+    display: block;
+    text-align: center;
+}
+
+.wrapper-order .price {
+    position: relative;
+    padding: 15px;
+    background-color: #00c277;
+    color: #444;
+    box-shadow: none;
+}
+
+.wrapper-order .price .old__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price .sale__price {
+    font-size: 32px;
+}
+
+.wrapper-order .price .old__price {
+    font-size: 18px;
+}
+
+.wrapper-order .price .old__price span:nth-child(2) {
+    text-decoration: line-through;
+}
+
+.wrapper-order .form-inputs {
+    padding: 20px 15px;
+    background-color: rgba(255, 255, 255, .8);
 }
