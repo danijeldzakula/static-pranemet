@@ -13544,11 +13544,13 @@ main.home section.wrapper-advantages .advantages-item {
     margin-top: 24px
 }
 
+/*
 main.home section.wrapper-advantages .advantages-item img {
     width: 56px;
     height: 56px;
     float: left
 }
+*/
 
 main.home section.wrapper-advantages .advantages-item .description {
     margin-left: 76px
@@ -17173,6 +17175,7 @@ main .venobox.video {
     position: relative
 }
 
+/*
 main .venobox.video:after {
     position: absolute;
     content: "";
@@ -17182,6 +17185,14 @@ main .venobox.video:after {
     right: 0;
     background: url(../img/button_play.svg) no-repeat center center
 }
+*/
+/*
+ICON
+DELETE ICON
+icon 
+Icon
+ICON
+*/
 
 @media screen and (max-width:992px) {
     main .venobox.video:after {
