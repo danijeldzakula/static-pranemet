@@ -22018,6 +22018,7 @@ main.revw.wrapper section#reviews div.buttons {
     background-color: #00c277;
     color: #444;
     box-shadow: none;
+    z-index: 1;
 }
 
 .wrapper-order .price .old__price {

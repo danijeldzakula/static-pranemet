@@ -756,7 +756,8 @@ main.home a.link {
 }
 
 main.home a.link.button-m {
-    line-height: 32px
+    line-height: 32px;
+    font-size: 24px;
 }
 
 main.home a.link:hover {
@@ -764,7 +765,7 @@ main.home a.link:hover {
 }
 
 main.home section.wrapper {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 40px
 }
 
@@ -835,14 +836,14 @@ main.home section.wrapper-what picture {
 
 main.home section.wrapper-how.wrapper.grey {
     padding-top: 50px;
-    padding-bottom: 50px
+    padding-bottom: 20px
 }
 
 main.home section.wrapper-how.wrapper.grey .image-video {
     border-radius: 5px;
     overflow: hidden;
     position: relative;
-    margin: 0; 
+    margin: 20px 0; 
 }
 
 main.home section.wrapper-how.wrapper.grey .image-video > a {
