@@ -765,7 +765,7 @@ main.home a.link:hover {
 }
 
 main.home section.wrapper {
-    padding-top: 20px;
+    padding-top: 0;
     padding-bottom: 40px
 }
 

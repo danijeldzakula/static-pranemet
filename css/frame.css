@@ -2966,7 +2966,7 @@ pre code {
 }
 
 select.form-control:not([size]):not([multiple]) {
-    height: calc(2.25rem + 2px)
+    /*height: calc(2.25rem + 2px)*/
 }
 
 select.form-control:focus::-ms-value {
@@ -17166,7 +17166,8 @@ main .venobox {
 }
 
 main .venobox img {
-    max-width: 100%
+    max-width: 100%;
+    width: 100%
 }
 
 main .venobox.video {
@@ -22043,3 +22044,138 @@ main.revw.wrapper section#reviews div.buttons {
     padding: 20px 15px;
     background-color: rgba(255, 255, 255, .8);
 }
+
+/* */
+.wrapper-order .gl__form {
+    position: relative;
+    box-shadow: 0 7px 18px rgba(0, 0, 0, 0.12), 0 3px 8px rgba(0, 0, 0, 0.13);
+    border-radius: 3px;
+    margin: auto;    
+    overflow: hidden;
+}
+
+@media (max-width: 767.98px) {
+    .wrapper-order .gl__form {
+        margin-bottom: 20px;
+    }
+}
+
+.wrapper-order .btn {
+    padding: 12px 0!important;
+    color: white;
+    border-radius: 25px;
+    background: #00c277;
+    background: -webkit-linear-gradient(to left, #00b36e, #00c277);
+    background: linear-gradient(to left, #00b36e, #00c277);
+    outline: 0;
+    border: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);    
+}
+
+.wrapper-order .btn-warning:hover {
+    color: #212529;
+    background: #00c277;
+    background: -webkit-linear-gradient(to right, #00b36e, #00c277);
+    background: linear-gradient(to right, #00b36e, #00c277);
+    border-color: #50C9C3;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.wrapper-order .btn-warning.focus, .wrapper-order .btn-warning:focus {
+    color: #212529;
+    background: #00c277;
+    background: -webkit-linear-gradient(to right, #00b36e, #00c277);
+    background: linear-gradient(to right, #00b36e, #00c277);
+    border-color: #50C9C3;
+    box-shadow: 0 0 0 0.2rem rgba(255,255,255,.5);
+}
+
+.btn-warning:not(:disabled):not(.disabled).active, .btn-warning:not(:disabled):not(.disabled):active, .show>.btn-warning.dropdown-toggle {
+    background: #00c277;
+    border-color: green;
+    color: black;
+}
+
+.wrapper-order .btn-warning:not(:disabled):not(.disabled).active:focus, 
+.wrapper-order .btn-warning:not(:disabled):not(.disabled):active:focus, 
+.wrapper-order .show>.btn-warning.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(80, 201, 195, 0.25);
+}
+
+.wrapper-order .gl__form .form-control:focus {
+    color: #495057;
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(80, 201, 195, 0.25);
+}
+
+.wrapper-order .form-control {
+    border-radius: 0;
+}
+
+.wrapper-order .price .sale__price,
+.wrapper-order .price .old__price {
+    display: block;
+    text-align: center;
+}
+
+.wrapper-order .price {
+    color: white;
+    padding: 15px;
+    background: #00c277;
+    background: -webkit-linear-gradient(to right, #00b36e, #00c277);
+    background: linear-gradient(to right, #00b36e, #00c277);
+}
+
+.wrapper-order .price .old__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-order .price .sale__price {
+    font-size: 32px;
+    color: #444;
+}
+
+.wrapper-order .price .old__price {
+    font-size: 18px;
+}
+
+.wrapper-order .price .old__price span:nth-child(2) {
+    text-decoration: line-through;
+}
+
+.wrapper-order .form-inputs {
+    margin: auto;
+    max-width: 82%;    
+    padding: 30px 0;
+    background-color: rgba(255, 255, 255, .8);
+}
+.wrapper-order .gl__form .form-group {
+    margin-bottom: 1.5rem;
+}   
+.wrapper-order .gl__form label {
+    margin-left: .375rem;
+}  
+.wrapper-order .gl__form .form-control {
+    height: calc(2em + .75rem + 2px);
+    padding: .375rem 1.75rem;
+    color: #000000;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+}
+.wrapper-order select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../img/br_down.png) white no-repeat 94.5% !important;
+    background: url(../img/br_down.png) white no-repeat calc(100% - 26px) !important;
+    background-size: 7px 7px;
+    background-position: center right;
+}   
+   
